@@ -1,0 +1,10 @@
+/* -------- link -------- */
+
+.link {
+  text-decoration: none;
+  color: $color-gray;
+
+  &--underline:hover {
+    text-decoration: underline;
+  }
+}

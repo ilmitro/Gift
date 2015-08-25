@@ -9,5 +9,12 @@
 // Mixins
 @import 'mixins/mixins';
 
-
 // Blocks
+@import 'blocks/body';
+@import 'blocks/container';
+@import 'blocks/link';
+@import 'blocks/header-page';
+@import 'blocks/logo';
+@import 'blocks/user-panel';
+@import 'blocks/nav-main';
+

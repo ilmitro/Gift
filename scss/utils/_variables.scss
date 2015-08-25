@@ -1,2 +1,18 @@
 // Variables
 // --------------------------------------
+
+// Fonts
+$font-size-base: 16px;
+$font-size-secondary: ($font-size-base - 2);
+$font-size-small: ($font-size-base - 4);
+$font-size-large: ($font-size-base + 14);
+
+$font-size-title: ($font-size-base + 9);
+$font-size-card: ($font-size-base + 2);
+$font-size-card-secondary: ($font-size-base - 3);
+
+// Colors
+$color-brand: #05aecc;
+$color-brand-secondary: #f0626e;
+
+$color-gray: #434343;

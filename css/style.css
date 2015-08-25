@@ -87,4 +87,139 @@
   display: none;
 }
 
+/* -------- body -------- */
+.body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #434343;
+}
+
+/* -------- container -------- */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* -------- link -------- */
+.link {
+  text-decoration: none;
+  color: #434343;
+}
+.link--underline:hover {
+  text-decoration: underline;
+}
+
+/* -------- header-page -------- */
+.header-page {
+  padding: 20px 0;
+}
+.header-page:before, .header-page:after {
+  content: '';
+  display: table;
+}
+.header-page:after {
+  clear: both;
+}
+
+/* -------- logo -------- */
+.logo {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+/* -------- user-panel -------- */
+.user-panel {
+  float: right;
+  margin-bottom: 15px;
+  line-height: 108px;
+}
+.user-panel__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.user-panel__item {
+  display: inline-block;
+}
+.user-panel__link {
+  display: inline-block;
+  padding: 0 25px;
+  color: #fff;
+  background-color: #f0626e;
+  -webkit-transition: background-color 0.2s;
+          transition: background-color 0.2s;
+}
+.user-panel__link:hover {
+  background-color: #05aecc;
+}
+
+/* -------- nav-main -------- */
+.nav-main {
+  clear: both;
+  background-color: #05aecc;
+}
+.nav-main__list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+.nav-main__item {
+  display: inline-block;
+  position: relative;
+}
+.nav-main__link {
+  display: inline-block;
+  padding: 30px 20px;
+  color: #fff;
+}
+.nav-main__link:hover {
+  background-color: #fff;
+  color: #f0626e;
+}
+.nav-main__sub-list {
+  position: absolute;
+  width: 280px;
+  margin: 0;
+  padding: 0 20px;
+  border: 1px solid #000;
+  list-style: none;
+  text-align: left;
+  display: none;
+}
+.nav-main__sub-item {
+  padding: 17px 0;
+  border-bottom: 1px solid #434343;
+}
+.nav-main__sub-item:last-child {
+  border-bottom: none;
+}
+.nav-main__sub-img {
+  float: left;
+  margin-right: 10px;
+}
+.nav-main__sub-title {
+  color: #f0626e;
+}
+.nav-main__sub-text {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.nav-main__sub-link {
+  display: inline-block;
+  padding: 7px 25px;
+  font-size: 12px;
+  background-color: #05aecc;
+  color: #fff;
+}
+.nav-main__sub-link:hover {
+  background-color: #f0626e;
+}
+
+.nav-main__item:hover .nav-main__sub-list {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

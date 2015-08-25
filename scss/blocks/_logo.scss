@@ -1,0 +1,6 @@
+/* -------- logo -------- */
+
+.logo {
+  @include img-responsive;
+  float: left;
+}
