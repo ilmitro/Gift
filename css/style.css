@@ -155,7 +155,7 @@
           transition: background-color 0.2s;
 }
 .user-panel__link:hover {
-  background-color: #ed4150;
+  background-color: #cc535e;
 }
 .user-panel .icon-user,
 .user-panel .icon-ok,
@@ -280,7 +280,7 @@
           transition: background-color 0.5s;
 }
 .promo__search:hover {
-  background-color: #ed4150;
+  background-color: #cc535e;
 }
 .promo__search-input {
   width: 70%;
