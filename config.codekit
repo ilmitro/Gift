@@ -84,6 +84,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/vendor\/fontello.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/vendor\/fontello.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/vendor\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -92,6 +101,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/fonts\/fontello\/config.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fonts\/fontello\/config.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/fonts\/fontello\/config-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
@@ -120,6 +140,17 @@
 		"initialSize": 6014,
 		"inputAbbreviatedPath": "\/pict\/item_preview.png",
 		"outputAbbreviatedPath": "\/pict\/item_preview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pict\/promo-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124802,
+		"inputAbbreviatedPath": "\/pict\/promo-1.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

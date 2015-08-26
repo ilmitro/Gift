@@ -3,7 +3,6 @@
 .user-panel {
   float: right;
   margin-bottom: 15px;
-  line-height: 108px;
 
   &__list {
     margin: 0;
@@ -11,16 +10,31 @@
     list-style: none;
   }
 
-  &__item { display: inline-block; }
+  &__item { 
+    display: inline-block; 
+    vertical-align: middle;
+  }
 
   &__link {
     display: inline-block;
-    padding: 0 25px;
+    width: 120px;
+    height: 108px;
+    padding: 33px 0;
+    text-align: center;
     color: #fff;
     background-color: $color-brand-secondary;
     transition: background-color 0.2s;
 
-
     &:hover { background-color: $color-brand; }
+  }
+
+
+  //fontello-icon
+
+  .icon-user,
+  .icon-ok,
+  .icon-gift,
+  .icon-cart { 
+    font-size: $font-size-icon-base; 
   }
 }
