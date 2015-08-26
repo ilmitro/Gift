@@ -2,7 +2,7 @@
 
 .nav-main {
   clear: both;
-  background-color: $color-brand;
+  background-color: $color-brand-blue;
 
   &__list {
     margin: 0;
@@ -23,22 +23,23 @@
 
     &:hover {
       background-color: #fff;
-      color: $color-brand-secondary;
+      color: $color-brand-red;
     }
   }
 
   
-  // sub-list
+  // Подменю
 
   &__sub-list {
+    display: none;
     position: absolute;
     width: 280px;
     margin: 0;
     padding: 0 20px;
-    border: 1px solid #000;
     list-style: none;
     text-align: left;
-    display: none;
+    background-color: #fff;
+    z-index: 2;
   }
 
   &__sub-item {
@@ -53,7 +54,7 @@
     margin-right: 10px;
   }
 
-  &__sub-title { color: $color-brand-secondary; }
+  &__sub-title { color: $color-brand-red; }
 
   &__sub-text {
     margin: 0;
@@ -65,15 +66,15 @@
     display: inline-block;
     padding: 7px 25px;
     font-size: $font-size-small;
-    background-color: $color-brand;
+    background-color: $color-brand-blue;
     color: #fff;
 
-    &:hover { background-color: $color-brand-secondary; }
+    &:hover { background-color: $color-brand-red; }
   }
 }
 
 
-// sub-list - display
+// Показать подменю
 
 .nav-main__item:hover .nav-main__sub-list {
   display: block;

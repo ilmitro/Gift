@@ -113,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/img\/ic-search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1152,
+		"inputAbbreviatedPath": "\/img\/ic-search.png",
+		"outputAbbreviatedPath": "\/img\/ic-search.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -144,13 +155,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/pict\/promo-1.jpg": {
+	"\/pict\/promo-craft.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48408,
+		"inputAbbreviatedPath": "\/pict\/promo-craft.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-craft.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pict\/promo-jewelry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44159,
+		"inputAbbreviatedPath": "\/pict\/promo-jewelry.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-jewelry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pict\/promo-kids.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16620,
+		"inputAbbreviatedPath": "\/pict\/promo-kids.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-kids.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pict\/promo-mens.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 124802,
-		"inputAbbreviatedPath": "\/pict\/promo-1.jpg",
-		"outputAbbreviatedPath": "\/pict\/promo-1.jpg",
+		"inputAbbreviatedPath": "\/pict\/promo-mens.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-mens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pict\/promo-womens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37222,
+		"inputAbbreviatedPath": "\/pict\/promo-womens.jpg",
+		"outputAbbreviatedPath": "\/pict\/promo-womens.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -244,6 +299,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/blocks\/_nav-main.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_nav-main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/blocks\/_promo.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/blocks\/_promo.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_promo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

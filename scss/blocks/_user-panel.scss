@@ -22,10 +22,10 @@
     padding: 33px 0;
     text-align: center;
     color: #fff;
-    background-color: $color-brand-secondary;
+    background-color: $color-brand-red;
     transition: background-color 0.2s;
 
-    &:hover { background-color: $color-brand; }
+    &:hover { background-color: $color-brand-red-darker; }
   }
 
 
