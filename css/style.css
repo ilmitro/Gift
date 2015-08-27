@@ -1,306 +1,77 @@
-/* -------- box-sizing -------- */
-* {
-  box-sizing: border-box;
-}
+/*
+Error: Invalid CSS after "    font-size: ": expected expression (e.g. 1px, bold), was ";"
+        on line 5 of /Users/ilmitro/Documents/WebDev/Projects/Gift/scss/blocks/_slider.scss
+        from line 22 of /Users/ilmitro/Documents/WebDev/Projects/Gift/scss/main.scss
 
-*:after,
-*:before {
-  box-sizing: border-box;
-}
+1: /* -------- slider -------- *\/
+2: 
+3: .slider {
+4:   &__title {
+5:     font-size: ;
+6:   }
+7: }
 
-/* -------- grid -------- */
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.row > div {
-  float: left;
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-.row:after, .row:before {
-  content: '';
-  display: table;
-}
-.row:after {
-  clear: both;
-}
-
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 25%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 41.66%;
-}
-
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.11%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-/* -------- inline-grid -------- */
-.row--inline {
-  font-size: 0;
-  margin-left: -5px;
-  margin-right: -5px;
-}
-.row--inline > div {
-  float: none;
-  display: inline-block;
-  padding: 0 5px;
-  vertical-align: top;
-}
-.row--inline:after, .row--inline:before {
-  display: none;
-}
-
-/* -------- body -------- */
-.body {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  color: #434343;
-}
-
-/* -------- container -------- */
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-/* -------- link -------- */
-.link {
-  text-decoration: none;
-  color: #434343;
-}
-.link--underline:hover {
-  text-decoration: underline;
-}
-
-/* -------- header-page -------- */
-.header-page {
-  padding: 20px 0;
-}
-.header-page:before, .header-page:after {
-  content: '';
-  display: table;
-}
-.header-page:after {
-  clear: both;
-}
-
-/* -------- logo -------- */
-.logo {
-  float: left;
-}
-
-/* -------- user-panel -------- */
-.user-panel {
-  float: right;
-  margin-bottom: 15px;
-}
-.user-panel__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.user-panel__item {
-  display: inline-block;
-  vertical-align: middle;
-}
-.user-panel__link {
-  display: inline-block;
-  width: 120px;
-  height: 108px;
-  padding: 33px 0;
-  text-align: center;
-  color: #fff;
-  background-color: #f0626e;
-  -webkit-transition: background-color 0.2s;
-          transition: background-color 0.2s;
-}
-.user-panel__link:hover {
-  background-color: #cc535e;
-}
-.user-panel .icon-user,
-.user-panel .icon-ok,
-.user-panel .icon-gift,
-.user-panel .icon-cart {
-  font-size: 25px;
-}
-
-/* -------- nav-main -------- */
-.nav-main {
-  clear: both;
-  background-color: #05aecc;
-}
-.nav-main__list {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  list-style: none;
-}
-.nav-main__item {
-  display: inline-block;
-  position: relative;
-}
-.nav-main__link {
-  display: inline-block;
-  padding: 30px 20px;
-  color: #fff;
-}
-.nav-main__link:hover {
-  background-color: #fff;
-  color: #f0626e;
-}
-.nav-main__sub-list {
-  display: none;
-  position: absolute;
-  width: 280px;
-  margin: 0;
-  padding: 0 20px;
-  list-style: none;
-  text-align: left;
-  background-color: #fff;
-  z-index: 2;
-}
-.nav-main__sub-item {
-  padding: 17px 0;
-  border-bottom: 1px solid #434343;
-}
-.nav-main__sub-item:last-child {
-  border-bottom: none;
-}
-.nav-main__sub-img {
-  float: left;
-  margin-right: 10px;
-}
-.nav-main__sub-title {
-  color: #f0626e;
-}
-.nav-main__sub-text {
-  margin: 0;
-  padding: 5px 0;
-  font-size: 14px;
-}
-.nav-main__sub-link {
-  display: inline-block;
-  padding: 7px 25px;
-  font-size: 12px;
-  background-color: #05aecc;
-  color: #fff;
-}
-.nav-main__sub-link:hover {
-  background-color: #f0626e;
-}
-
-.nav-main__item:hover .nav-main__sub-list {
-  display: block;
-}
-
-/* -------- promo -------- */
-.promo {
-  margin-bottom: 50px;
-}
-.promo__item {
-  position: relative;
-  margin-bottom: 10px;
-}
-.promo__img {
-  max-width: 100%;
-  height: auto;
-}
-.promo__info {
-  position: absolute;
-  bottom: 20px;
-  max-width: 350px;
-  padding: 15px;
-  background-color: rgba(32, 46, 59, 0.7);
-  -webkit-transition: background-color 0.5s;
-          transition: background-color 0.5s;
-}
-.promo__info--position {
-  bottom: 360px;
-  right: 0;
-}
-.promo__title {
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: 30px;
-  color: #f0626e;
-}
-.promo__text {
-  margin: 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #fff;
-}
-.promo__search {
-  padding: 45px;
-  padding-left: 50px;
-  padding-right: 25px;
-  font-size: 16px;
-  background-color: #f0626e;
-  -webkit-transition: background-color 0.5s;
-          transition: background-color 0.5s;
-}
-.promo__search:hover {
-  background-color: #cc535e;
-}
-.promo__search-input {
-  width: 70%;
-  margin-right: 20px;
-  padding: 20px 15px;
-  border: none;
-  outline: 0;
-}
-.promo__search-btn {
-  width: 60px;
-  height: 60px;
-  border: none;
-  vertical-align: middle;
-  background: url("../img/ic-search.png") no-repeat;
-  background-size: 90%;
-  outline: 0;
-}
-
-.promo__item:hover .promo__info {
-  background-color: #202e3b;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/ilmitro/Documents/WebDev/Projects/Gift/scss/blocks/_slider.scss:5
+/Users/ilmitro/Documents/WebDev/Projects/Gift/scss/main.scss:22
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1162:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/lexer.rb:221:in `expected!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:573:in `assert_expr'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:62:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1024:in `sass_script'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:877:in `value!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:750:in `block in try_declaration'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1138:in `call'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1138:in `rethrow'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:763:in `try_declaration'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:693:in `declaration_or_ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:658:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:639:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:658:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:639:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:632:in `ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:657:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:309:in `to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:410:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    font-size: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 5 of /Users/ilmitro/Documents/WebDev/Projects/Gift/scss/blocks/_slider.scss\A         from line 22 of /Users/ilmitro/Documents/WebDev/Projects/Gift/scss/main.scss\A \A 1: /* -------- slider -------- */\A 2: \A 3: .slider {\A 4:   &__title {\A 5:     font-size: ;\A 6:   }\A 7: }"; }

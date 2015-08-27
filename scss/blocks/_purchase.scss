@@ -1,0 +1,60 @@
+/* -------- purchase -------- */
+
+.purchase {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  font-size: 0;
+  color: #fff;
+
+  &__title {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: $font-size-base;
+    background-color: $color-brand-red;
+    color: #fff;
+    vertical-align: middle;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $color-brand-red-darker;
+    }
+  }
+
+  &__give {
+    display: inline-block;
+    padding: 9.5px;
+    font-size: 25px;
+    background-color: $color-brand-blue;
+    vertical-align: middle;
+    color: #fff;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $color-brand-blue-darker;
+    }
+  }
+
+  &__cart {
+    display: inline-block;
+    padding: 9.5px;
+    font-size: 25px;
+    background-color: $color-brand-red;
+    vertical-align: middle;
+    color: #fff;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $color-brand-red-darker;
+    }
+  }
+
+  &__price {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: $font-size-base;
+    background-color: $color-gray;
+    color: #fff;
+    vertical-align: middle;
+  }
+}
