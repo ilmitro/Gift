@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
+    "bxslider-4": "bx-slider.js#~4.2.5",
     "normalize-css": "normalize.css#~3.0.3"
   }
 }

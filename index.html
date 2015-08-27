@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <!-- fontello -->
   <link rel="stylesheet" href="css/vendor/fontello.css">
+  <!-- bxslider -->
+  <link rel="stylesheet" href="css/vendor/jquery.bxslider.css">
   <!-- style -->
   <link rel="stylesheet" href="css/style.css">
   <!-- google fonts -->
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <!-- jquery -->
+  <script src="js/vendor/jquery.min.js"></script>
+  <!-- bxslider-js -->
+  <script src="js/vendor/jquery.bxslider.min.js"></script>
 </head>
 <body class="body">
 <div class="container">
@@ -387,9 +393,64 @@
     <div class="slider">
       <h2 class="slider__title">New products</h2>
 
-
-
-
+      <!-- bxslider -->
+      <ul class="bxslider">
+        <li class="bxslider__item">
+          <img src="pict/slider-1.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Women's wear</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 99.00</span>
+          </div>
+        </li>
+        <li class="bxslider__item">
+          <img src="pict/slider-2.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Jewelry</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 105.00</span>
+          </div>
+        </li>
+        <li class="bxslider__item">
+          <img src="pict/slider-3.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Ladies Watch</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 230.00</span>
+          </div>
+        </li>
+        <li class="bxslider__item">
+          <img src="pict/slider-1.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Red bag</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 99.00</span>
+          </div>
+        </li>
+        <li class="bxslider__item">
+          <img src="pict/slider-2.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Accessory</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 125.00</span>
+          </div>
+        </li>
+        <li class="bxslider__item">
+          <img src="pict/slider-3.jpg"/>
+          <div class="purchase">
+            <a class="purchase__title link" href="#">Name product</a>
+            <a class="purchase__give link" href="#"><i class="icon-gift"></i></a>
+            <a class="purchase__cart link" href="#"><i class="icon-cart"></i></a>
+            <span class="purchase__price">$ 87.00</span>
+          </div>
+        </li>
+      </ul>
+      
     </div><!-- /.slider -->
 
   
@@ -406,12 +467,6 @@
 
   </main>
 
-
-
-
-
-
-
   <footer class="footer-page">
     
 
@@ -419,6 +474,20 @@
   </footer>
 
 </div><!-- ./container -->
+
+  <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        slideWidth: 380,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 25,
+        auto: true,
+        pager: false
+      });
+    });
+  </script>
 
 
 

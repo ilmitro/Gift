@@ -11,9 +11,23 @@
     display: inline-block;
     padding: 15px 10px;
     font-size: $font-size-base;
-    background-color: $color-brand-red;
+    background-color: $color-brand-blue;
     color: #fff;
     vertical-align: middle;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: $color-brand-blue-darker;
+    }
+  }
+
+  &__give {
+    display: inline-block;
+    padding: 9.5px;
+    font-size: 25px;
+    background-color: $color-brand-red;
+    vertical-align: middle;
+    color: #fff;
     transition: background-color 0.5s;
 
     &:hover {
@@ -21,7 +35,7 @@
     }
   }
 
-  &__give {
+  &__cart {
     display: inline-block;
     padding: 9.5px;
     font-size: 25px;
@@ -32,20 +46,6 @@
 
     &:hover {
       background-color: $color-brand-blue-darker;
-    }
-  }
-
-  &__cart {
-    display: inline-block;
-    padding: 9.5px;
-    font-size: 25px;
-    background-color: $color-brand-red;
-    vertical-align: middle;
-    color: #fff;
-    transition: background-color 0.5s;
-
-    &:hover {
-      background-color: $color-brand-red-darker;
     }
   }
 
