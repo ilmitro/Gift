@@ -1480,6 +1480,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/pict\/card-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15372,
+		"inputAbbreviatedPath": "\/pict\/card-4.jpg",
+		"outputAbbreviatedPath": "\/pict\/card-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/pict\/item_preview.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1509,17 +1520,6 @@
 		"initialSize": 44159,
 		"inputAbbreviatedPath": "\/pict\/promo-jewelry.jpg",
 		"outputAbbreviatedPath": "\/pict\/promo-jewelry.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/pict\/promo-kids.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16620,
-		"inputAbbreviatedPath": "\/pict\/promo-kids.jpg",
-		"outputAbbreviatedPath": "\/pict\/promo-kids.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

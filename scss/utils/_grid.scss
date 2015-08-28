@@ -37,13 +37,13 @@
 
 .row--inline {
   font-size: 0;
-  margin-left: -5px;
-  margin-right: -5px;
+  // margin-left: -5px;
+  // margin-right: -5px;
 
   & > div {
     float: none;
     display: inline-block;
-    padding: 0 5px;
+    // padding: 0 5px;
     vertical-align: top;
   }
 
@@ -52,3 +52,16 @@
     display: none;
   }
 }
+
+
+/* -------- Модификация для блока promo -------- */
+
+.row--padding-5 {
+  margin-left: -5px;
+  margin-right: -5px;
+
+  & > div {
+    padding: 0 5px;
+  }
+}
+

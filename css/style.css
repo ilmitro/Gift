@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* -------- box-sizing -------- */
 * {
   box-sizing: border-box;
@@ -77,17 +78,23 @@
 /* -------- inline-grid -------- */
 .row--inline {
   font-size: 0;
-  margin-left: -5px;
-  margin-right: -5px;
 }
 .row--inline > div {
   float: none;
   display: inline-block;
-  padding: 0 5px;
   vertical-align: top;
 }
 .row--inline:after, .row--inline:before {
   display: none;
+}
+
+/* -------- Модификация для блока promo -------- */
+.row--padding-5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row--padding-5 > div {
+  padding: 0 5px;
 }
 
 /* -------- body -------- */
@@ -242,6 +249,7 @@
   margin-bottom: 10px;
 }
 .promo__img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -379,6 +387,7 @@
   border: 1px solid #b4b4b4;
 }
 .card-product__img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -401,7 +410,7 @@
   padding: 10px;
   border-top: 1px solid #b4b4b4;
   border-right: 1px solid #b4b4b4;
-  font-size: 23px;
+  font-size: 22px;
   background-color: #fff;
   color: #b4b4b4;
 }
@@ -412,8 +421,9 @@
 .card-product__price {
   display: inline-block;
   padding: 10px;
+  padding-right: 0;
   border-top: 1px solid #b4b4b4;
-  font-size: 23px;
+  font-size: 22px;
   color: #fff;
 }
 .card-product__label {
