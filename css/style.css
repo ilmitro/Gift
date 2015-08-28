@@ -115,6 +115,9 @@
   text-decoration: none;
   color: #434343;
 }
+.link--underline:hover {
+  text-decoration: underline;
+}
 
 /* -------- header-page -------- */
 .header-page {
@@ -165,6 +168,7 @@
 .user-panel .icon-ok,
 .user-panel .icon-gift,
 .user-panel .icon-cart {
+  margin-left: 5px;
   font-size: 25px;
 }
 
@@ -202,6 +206,7 @@
   text-align: left;
   background-color: #fff;
   z-index: 2;
+  box-shadow: 0 -1px 5px #434343;
 }
 .nav-main__sub-item {
   padding: 17px 0;
@@ -216,9 +221,6 @@
 }
 .nav-main__sub-title {
   color: #f0626e;
-}
-.nav-main__sub-title:hover {
-  text-decoration: underline;
 }
 .nav-main__sub-text {
   margin: 0;
@@ -261,10 +263,6 @@
   background-color: rgba(32, 46, 59, 0.7);
   -webkit-transition: background-color 0.5s;
           transition: background-color 0.5s;
-}
-.promo__info--position {
-  bottom: 360px;
-  right: 0;
 }
 .promo__title {
   margin: 0;

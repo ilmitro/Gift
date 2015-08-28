@@ -26,11 +26,6 @@
     padding: 15px;
     background-color: rgba(32, 46, 59, 0.7);
     transition: background-color 0.5s;
-
-    &--position {
-      bottom: 360px;
-      right: 0;
-    }
   }
 
   &__title {
@@ -65,7 +60,6 @@
 
   &__search-input {
     width: 70%;
-    // для планшета уменьшить ширину до 60%
     margin-right: 20px;
     padding: 20px 15px;
     border: none;
