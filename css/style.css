@@ -88,7 +88,7 @@
   display: none;
 }
 
-/* -------- Модификация для блока promo -------- */
+/* -------- Модификатор для блока promo -------- */
 .row--padding-5 {
   margin-left: -5px;
   margin-right: -5px;
@@ -242,7 +242,7 @@
 
 /* -------- promo -------- */
 .promo {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .promo__item {
   position: relative;
@@ -376,10 +376,15 @@
   font-size: 30px;
   color: #05aecc;
   border-bottom: 1px solid #434343;
+  text-align: left;
 }
 
 /* -------- new-products -------- */
 /* -------- featured -------- */
+.featured {
+  margin-bottom: 60px;
+}
+
 /* -------- card-product -------- */
 .card-product {
   display: inline-block;
@@ -413,6 +418,8 @@
   font-size: 22px;
   background-color: #fff;
   color: #b4b4b4;
+  -webkit-transition: all 0.2s;
+          transition: all 0.2s;
 }
 .card-product__link:hover {
   background-color: #f0626e;
@@ -435,6 +442,35 @@
   background-color: #f0626e;
   color: #fff;
   text-transform: uppercase;
+}
+
+/* -------- about -------- */
+.about {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* -------- text-section -------- */
+.text-section {
+  padding: 0 20px;
+  margin: 0;
+  margin-bottom: 50px;
+  line-height: 26px;
+  text-align: left;
+}
+
+/* -------- register-btn -------- */
+.register-btn {
+  display: inline-block;
+  padding: 15px 200px;
+  font-size: 25px;
+  background-color: #05aecc;
+  color: #fff;
+  -webkit-transition: background-color 0.2s;
+          transition: background-color 0.2s;
+}
+.register-btn:hover {
+  background-color: #0494ad;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -34,6 +34,7 @@
     font-size: ($font-size-base + 6);
     background-color: #fff;
     color: $color-gray-lighter;
+    transition: all 0.2s;
 
     &:hover {
       background-color: $color-brand-red;
