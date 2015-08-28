@@ -1,0 +1,30 @@
+/* -------- user-email -------- */
+
+.user-email {
+  
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid $color-gray-lighter;
+    text-align: center;
+    outline: 0;
+  }
+
+  &__btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 0;
+    text-transform: uppercase;
+    background-color: $color-brand-blue;
+    color: #fff;
+    outline: 0;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: $color-brand-blue-darker;
+    } 
+  }  
+}

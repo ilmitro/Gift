@@ -54,7 +54,11 @@
     margin-right: 10px;
   }
 
-  &__sub-title { color: $color-brand-red; }
+  &__sub-title { 
+    color: $color-brand-red;
+
+    &:hover {text-decoration: underline;} 
+  }
 
   &__sub-text {
     margin: 0;

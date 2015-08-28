@@ -1,5 +1,30 @@
 /* -------- footer-page -------- */
 
 .footer-page {
-  
+  padding: 50px 20px;
+  border-top: 1px solid $color-gray;
+
+  &__title {
+    margin-bottom: 15px;
+    font-size: ($font-size-base + 9);
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 5px 0;
+  }
+
+  &__link {
+    color: mix($color-gray, #fff, 75%);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

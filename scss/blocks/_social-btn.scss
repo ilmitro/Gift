@@ -1,0 +1,34 @@
+/* -------- social-btn -------- */
+
+.social-btn {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: $font-size-icon-base;
+  color: #fff;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--fbk {
+    background-color: #3A5795;
+  }
+
+  &--twr {
+    background-color: #55ACEE;
+  }
+
+  &--ins {
+    background-color: #00385F;
+  }
+
+  &--gpl {
+    background-color: #DD4B39;
+  }
+}
