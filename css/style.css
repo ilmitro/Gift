@@ -372,6 +372,7 @@
   padding-left: 20px;
   padding-bottom: 10px;
   font-size: 30px;
+  font-weight: normal;
   color: #05aecc;
   border-bottom: 1px solid #434343;
   text-align: left;
@@ -479,6 +480,7 @@
 .footer-page__title {
   margin-bottom: 15px;
   font-size: 25px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 .footer-page__list {
@@ -552,5 +554,3 @@
 .social-btn--gpl {
   background-color: #DD4B39;
 }
-
-/*# sourceMappingURL=style.css.map */
